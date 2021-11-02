@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mpDUqHaZ",
+    "title": "Shampoo",
+    "price": 3000,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  },
+  {
+    "id": "Roa2Q9Qc",
+    "title": "Crema",
+    "price": 3000,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  },
+  {
+    "id": "cZ1Ev7oq",
+    "title": "Gel",
+    "price": 5000,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  }
+]
