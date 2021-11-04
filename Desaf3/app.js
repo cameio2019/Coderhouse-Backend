@@ -6,13 +6,13 @@ const contenedor = new Contenedor();
 
 //Crear un producto
 
-// contenedor.crearProducto({title:'Gel',price:5000,thumbnail:'https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg'}).then(result=>{
+// contenedor.crearProducto({title:'Crema',price:890,thumbnail:'https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg'}).then(result=>{
 //     console.log(result.message);
 // })
 
 // //Elimina del archivo el objeto con el ID buscado.
 
-contenedor.deleteById('mpDUqHaZ').then(result=>{
+contenedor.deleteById('mLd3Jt0d').then(result=>{
     console.log(result.message);
 })
 
@@ -24,7 +24,7 @@ contenedor.deleteById('mpDUqHaZ').then(result=>{
 
 //Recibe un ID y devuelve el objeto de ese ID
 
-// contenedor.getById('mpDUqHaZ').then(result=>{
+// contenedor.getById('rLSdPIz0').then(result=>{
 //     console.log(result.product);
 // })
 

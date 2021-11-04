@@ -80,13 +80,22 @@ class Contenedor {
             try{
                 let data = await fs.promises.readFile('./Files/products.txt','utf-8')
                 let products = JSON.parse(data);
-                let product = products.find(prod => prod.id === id)
+                let product = products.find(prd=>prd.id===id);
                 if(product){
-                    await fs.promises.unlink(`${id}`)
-                    return {status:"success",message:`Producto "${id}" eliminando.`}
+                    try{
+                        let prodObj = products.filter(prd => prd.id !== id);
+                        products.splice(prodObj);
+                        await fs.promises.writeFile('./Files/products.txt',
+                        JSON.stringify([prodObj],null,2))
+                            return {status:"success",message:`Producto "${id}" eliminado.`}
+                        }catch(err){
+                            return {status:"error",message:`"${id} no encontrado."`+error}
+                        }
+                    }else{
+                    return {status:"error",message:`Producto con ID "${id} no encontrado.`}
                 }
-            }catch(error){
-                return {status:"error",message:`No se encuentra el Producto con el ID "${id}" del producto.`+error}
+            }catch(err){
+                return {status:"error",message:"No se encontro el producto."}
             }
         }
 }
