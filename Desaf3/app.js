@@ -6,15 +6,15 @@ const contenedor = new Contenedor();
 
 //Crear un producto
 
-// contenedor.crearProducto({title:'Crema',price:890,thumbnail:'https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg'}).then(result=>{
+// contenedor.crearProducto({title:'Acondicionador',price:600,thumbnail:'https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg'}).then(result=>{
 //     console.log(result.message);
 // })
 
 // //Elimina del archivo el objeto con el ID buscado.
 
-contenedor.deleteById('mLd3Jt0d').then(result=>{
-    console.log(result.message);
-})
+// contenedor.deleteById('mLd3Jt0d').then(result=>{
+//     console.log(result.message);
+// })
 
 //Elimina todos los objetos presentes en el archivo.
 
