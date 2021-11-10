@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pIFCx4Hj",
+    "title": "Crema",
+    "price": 890,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  },
+  {
+    "id": "vmLFD6Fr",
+    "title": "Shampoo",
+    "price": 900,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  },
+  {
+    "id": "N1IU2zTx",
+    "title": "Gel",
+    "price": 500,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  },
+  {
+    "id": "PIXovycf",
+    "title": "Acondicionador",
+    "price": 600,
+    "thumbnail": "https://i.ibb.co/Q8gdBj4/Shampoo-Inforcer.jpg"
+  }
+]
