@@ -4,7 +4,7 @@
   "description": "BackendCoder",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
